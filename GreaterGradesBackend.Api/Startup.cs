@@ -124,7 +124,7 @@ namespace GreaterGradesBackend.Api
 
 
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, GreaterGradesBackendDbContext dbContext)
+        public static void Configure(IApplicationBuilder app, IWebHostEnvironment env, GreaterGradesBackendDbContext dbContext)
         {
             if (env.IsDevelopment())
             {
